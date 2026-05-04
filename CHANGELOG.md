@@ -1,4 +1,11 @@
-## [Unreleased]
+## v1.1.0 — 2026-05-04
+
+### 变更
+- **PDCA 驱动执行**：所有发布执行内嵌 PDCA 循环（Plan → Do → Check → Act），12 个 Step 嵌入 Do 阶段，Check 阶段验证产出，Act 阶段决策与复盘
+- **嵌套支持**：多仓库发布和发布后验证展开为 L2 子 PDCA
+- **Do Gate / Check Gate / Act Gate**：每阶段有明确的 Gate 标准，Do Gate 不通过则必须回滚
+
+---
 
 ## v1.0.0 — 2026-05-04
 
